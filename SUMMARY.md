@@ -10,3 +10,4 @@
   * [Setup](emperia/setup.md)
   * [Syncing](emperia/syncing.md)
 * [Galactica](galactica.md)
+* [Symphony](symphony.md)
