@@ -11,3 +11,4 @@
   * [Syncing](emperia/syncing.md)
 * [Galactica](galactica.md)
 * [Symphony](symphony.md)
+* [Network3](network3.md)
