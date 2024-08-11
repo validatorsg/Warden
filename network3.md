@@ -1,17 +1,20 @@
 ---
 description: >-
   Network3 builds an AI Layer2 helping AI developers worldwide inference train
-  or validate models widely quickly, conveniently, and efficiently  Website:
-  https://network3.ai  Discord: https://discord.co
+  or validate models widely quickly, conveniently, and efficiently
 ---
 
 # Network3
 
+
+
+Discord: https://discord.com
+
+Website: https://network3.ai
+
 ## Register account
 
-
-
-[https://account.network3.ai/register\_page?rc=5dd0d548](https://account.network3.ai/register\_page?rc=5dd0d548)
+[https://account.network3.ai/register\_page?rc=630a1e70](https://account.network3.ai/register\_page?rc=630a1e70)
 
 ## Installation Guide for Ubuntu
 
