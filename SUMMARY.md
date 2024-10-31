@@ -12,3 +12,4 @@
 * [Galactica](galactica.md)
 * [Symphony](symphony.md)
 * [Network3](network3.md)
+* [Kopi Protocol](kopi-protocol.md)
