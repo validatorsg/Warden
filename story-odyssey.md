@@ -4,6 +4,8 @@ description: Installation Guide
 
 # Story Odyssey
 
+#### [https://www.story.foundation](https://www.story.foundation/) <a href="#system-specs" id="system-specs"></a>
+
 #### Tech Specs <a href="#system-specs" id="system-specs"></a>
 
 | Hardware  | Requirement       |
@@ -13,7 +15,11 @@ description: Installation Guide
 | Disk      | 200 GB            |
 | Bandwidth | 10 MBit/s minumum |
 
+Faucet link: [https://odyssey.faucet.story.foundation/](https://odyssey.faucet.story.foundation/)
 
+Storyscan: [https://odyssey-testnet-explorer.storyscan.xyz/](https://odyssey-testnet-explorer.storyscan.xyz/)
+
+Important note: Need join discord to get faucet information
 
 ```
 # install dependencies, if needed
@@ -151,7 +157,7 @@ journalctl -u story -u story-geth -f
 
 View your validator key
 
-Copy
+
 
 ```
 story validator export
@@ -159,7 +165,7 @@ story validator export
 
 Export EVM private key
 
-Copy
+
 
 ```
 story validator export --export-evm-key
@@ -167,19 +173,17 @@ story validator export --export-evm-key
 
 View EVM private key and make a key backup
 
-Copy
+
 
 ```
 cat $HOME/.story/story/config/private_key.txt
 ```
 
-Faucet link: [https://odyssey.faucet.story.foundation/](https://odyssey.faucet.story.foundation/)
 
-Storyscan: [https://odyssey-testnet-explorer.storyscan.xyz/](https://odyssey-testnet-explorer.storyscan.xyz/)
 
 **Before creating a validator, wait for your node to get fully synced. Once "catching\_up" is "false", move on to the next step**
 
-Copy
+
 
 ```
 curl localhost:$(sed -n '/\[rpc\]/,/laddr/ { /laddr/ {s/.*://; s/".*//; p} }' $HOME/.story/story/config/config.toml)/status | jq
@@ -187,7 +191,7 @@ curl localhost:$(sed -n '/\[rpc\]/,/laddr/ { /laddr/ {s/.*://; s/".*//; p} }' $H
 
 **Create validator**
 
-Copy
+
 
 ```
 story validator create --stake 1024000000000000000000 --moniker "your-node-name" --private-key "your_private_key"
@@ -195,7 +199,7 @@ story validator create --stake 1024000000000000000000 --moniker "your-node-name"
 
 **Validator staking**
 
-Copy
+
 
 ```
 story validator stake \
@@ -206,7 +210,7 @@ story validator stake \
 
 #### Remember to backup your validator priv\_key from here: <a href="#remember-to-backup-your-validator-priv_key-from-here" id="remember-to-backup-your-validator-priv_key-from-here"></a>
 
-Copy
+
 
 ```
 cat $HOME/.story/story/config/priv_validator_key.json
@@ -214,7 +218,7 @@ cat $HOME/.story/story/config/priv_validator_key.json
 
 #### Delete node <a href="#delete-node" id="delete-node"></a>
 
-Copy
+
 
 ```
 sudo systemctl stop story story-geth
