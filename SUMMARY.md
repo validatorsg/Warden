@@ -13,3 +13,4 @@
 * [Symphony](symphony.md)
 * [Network3](network3.md)
 * [Kopi Protocol](kopi-protocol.md)
+* [Story Odyssey](story-odyssey.md)
