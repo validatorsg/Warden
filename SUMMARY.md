@@ -16,3 +16,4 @@
 * [Story Odyssey](story-odyssey.md)
 * [Airchains\_Varanasi](airchains_varanasi.md)
 * [BitBadges](bitbadges.md)
+* [Tellor](tellor.md)
