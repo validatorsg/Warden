@@ -1,10 +1,6 @@
 # Table of contents
 
-* [Warden upgrade](README.md)
-  * [Setup](readme/setup.md)
-  * [Upgrade version 0.3.2](readme/upgrade-version-0.3.2.md)
-  * [Syncing](readme/syncing.md)
-* [Luxa](luxa.md)
+* [Luxa](README.md)
 * [Airchains](airchains/README.md)
   * [Setup Airchains](airchains/setup-airchains.md)
 * [Emperia](emperia/README.md)
